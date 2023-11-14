@@ -1,18 +1,46 @@
 html{
-    background-color: rgb(255, 255 ,200)
+    background-color: rgb(255, 255 ,200);
+    margin: 0;
+}
+#load{
+    background-color: yellow;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position:absolute; 
+    top:0px; right:0px; bottom:0px; left:0px; 
+    
+    display: flex;
+    justify-content: center;
+     /*
+    align-items: center;
+    */
+    
 }
 
 div.header{
-  background-color: yellow;
-  width: 105%;
-  height: 120px;
-  margin-left: -10px;
-  margin-top: -20px;
+    background-color: yellow;
+    width: 100%;
+    height: 120px;
+    margin-left: -10px; 
+    margin-top: -20px;
+    border-color: black;
+    border: 10px solid;
+    border-top: 0px;
 
-  text-align: center;
-  position: sticky;
-  top: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
 }
 #test{
-    font-size: 1000px;
+    font-size: 500px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    z-index: 3;
 }
