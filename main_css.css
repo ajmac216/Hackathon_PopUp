@@ -145,3 +145,17 @@ margin-top: 10px;
     bottom: 0;
     width: 100%;
 }
+
+#search{
+    position:absolute;
+    top: 5px;
+    right: 125px;
+    z-index: 3;
+}
+
+#account{
+    position:absolute;
+    right: 20px;
+    top: 5px;
+    z-index: 3;
+}
