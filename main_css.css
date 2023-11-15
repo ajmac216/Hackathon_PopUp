@@ -56,7 +56,7 @@ body{
     color: white;
     border-bottom: 3px Solid Black;
 }
-
+/*
 #set{
     width: 6%;
     position:absolute;
@@ -64,7 +64,7 @@ body{
     right: 1px;
     z-index: 3;
 }
-
+*/
 #area{
     display: flex;
     justify-content: center;
@@ -146,16 +146,54 @@ margin-top: 10px;
     width: 100%;
 }
 
-#search{
+#drop{
+    width: 30px;
     position:absolute;
-    top: 5px;
-    right: 125px;
+    top: 15px;
+    left: 20px;
     z-index: 3;
 }
 
+#drop:hover{
+    
+    opacity: .5;
+}
+
+#donate{
+    width: 30px;
+    position:absolute;
+    top: 15px;
+    left: 100px;
+    z-index: 3;
+}
+
+#donate:hover{
+    
+    opacity: .5;
+}
+
+#search{
+    width: 30px;
+    position:absolute;
+    top: 15px;
+    right: 100px;
+    z-index: 3;
+}
+
+#search:hover{
+    
+    opacity: .5;
+}
+
 #account{
+    width: 30px;
     position:absolute;
     right: 20px;
-    top: 5px;
+    top: 15px;
     z-index: 3;
+}
+
+#account:hover{
+    
+    opacity: .5;
 }
