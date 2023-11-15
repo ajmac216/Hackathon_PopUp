@@ -53,8 +53,9 @@ body{
 
 #set{
     width: 6%;
-    display: flex;
-    float: right;
+    position:absolute;
+    top: 1px;
+    right: 1px;
     z-index: 3;
 }
 
