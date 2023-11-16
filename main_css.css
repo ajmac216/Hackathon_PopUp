@@ -42,7 +42,6 @@ body{
     font-family: 'Mochiy Pop One', sans-serif;
     color: white; 
 }
-
 /*
 #set{
     width: 6%;
@@ -53,7 +52,7 @@ body{
     z-index: 3;
 }
 */
-#phone{
+#phone_pages{
     overflow-y: scroll;
 
     margin-top: 59px;
@@ -64,11 +63,11 @@ body{
     z-index: 0;
 }
 
-#phone::-webkit-scrollbar { /*chrome*/
+#phone_pages::-webkit-scrollbar { /*chrome*/
     display: none;
 }
 
-#phone { /* Firefox */
+#phone_pages{ /* Firefox */
     scrollbar-width: none; 
     -ms-overflow-style: none;  
 }
