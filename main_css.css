@@ -131,6 +131,11 @@ margin-top: 10px;
     background-color: rgb(225, 225 ,225);
 }
 
+#card_text{
+    position: relative;
+    left: 3px;
+}
+
 #phone_account{
     margin-bottom: 480px;
 
