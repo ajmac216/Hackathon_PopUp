@@ -25,7 +25,7 @@ body{
     background-color: rgb(0, 100, 230);
    
     width: 300px;
-    height: 10%;
+    height: 70px;
 
     display: flex;
     justify-content: center;
@@ -186,7 +186,7 @@ margin-top: 10px;
     margin-top: -18px;
 
     position: absolute;
-    bottom: 87px;
+    top: 562px;
   
     color: #fff;
     text-align: center;
