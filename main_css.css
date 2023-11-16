@@ -129,15 +129,64 @@ margin-top: 10px;
     background-color: rgb(225, 225 ,225);
 }
 
+#phone_account{
+    margin-bottom: 480px;
+
+    color: white;
+    font-size: 20px;
+}
+
+#account_header{
+    
+    background-color: rgb(80, 138, 186);
+    margin-top: 3px;
+
+    height: 180px;
+    width: 300px;
+
+    position: absolute;
+    z-index: 5;
+    
+    border-bottom: 3px Solid white 
+}
+
+#acc_info{
+    position: absolute;
+    top: -5px;
+    right: 40px;
+
+    border-bottom: 3px Solid white;
+}
+
+#history{
+    position: absolute;
+
+    margin-top: -10px;
+
+}
+
+#history_content{
+    position: relative;
+    top: 200px;
+    max-height: 500px;
+
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+
 .toolbar{
     background-color: #333;
 
     width: 300px; 
-    height: 10%;
+    height: 59px;
+
 
     margin-top: -18px;
 
-    position: relative;
+    position: absolute;
+    bottom: 87px;
   
     color: #fff;
     text-align: center;
