@@ -319,3 +319,13 @@ margin-top: 10px;
     align-items: center;
     
 }
+
+#load_logo{
+    
+    position: absolute;
+    top: 60px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}

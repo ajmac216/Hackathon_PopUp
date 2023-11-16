@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function(event){
 
-$("#load").delay(2000).fadeOut(200);
+$("#load").delay(200000000).fadeOut(200);
 
 $("#phone_account").fadeOut(0);
 
