@@ -152,20 +152,36 @@ margin-top: 10px;
 
 #acc_info{
     position: absolute;
-    top: -5px;
-    right: 40px;
+    top: -15px;
+    right: 110px;
 
-    border-bottom: 3px Solid white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#edit{
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 
 #acc_text{
     margin-left: 5px;
     margin-bottom: -10px;
+    border-bottom: 1px Solid whitesmoke;
+}
+
+#acc_text2{
+    position: absolute;
+    right: 0;
+
 }
 
 #history{
     margin-left: 5px;
+
     position: absolute;
+    right: 110px;
 }
 
 #history_content{

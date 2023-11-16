@@ -13,9 +13,9 @@ var x = 0;
 function switch_page(){
 
     if(x == 0){
-    $("#phone_home").fadeOut(0);
-    $("#phone_account").fadeIn(0);
-    x = 1;
+        $("#phone_home").fadeOut(0);
+        $("#phone_account").fadeIn(0);
+        x = 1;
     }
     else{
         $("#phone_account").fadeOut(0);
